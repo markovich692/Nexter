@@ -40,6 +40,7 @@ body {
 
 .features {
   background-color: #aaa;
+  grid-column: center-start/center-end;
 }
 
 .story__pictures {
@@ -55,10 +56,12 @@ body {
 
 .gallery {
   background-color: #54483a;
+  grid-column: full-start/full-end;
 }
 
 .footer {
   background-color: #101d2c;
+  grid-column: full-start/full-end;
 }
 
 /*# sourceMappingURL=style.css.map */
