@@ -24,6 +24,22 @@ body {
   grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
 }
 
+.heading-1 {
+  @extends %heading;
+}
+
+.heading-2 {
+  @extends %heading;
+}
+
+.heading-3 {
+  @extends %heading;
+}
+
+.heading-4 {
+  @extends %heading;
+}
+
 .sidebar {
   background-color: #c69963;
   grid-column: sidebar-start/sidebar-end;
@@ -48,12 +64,11 @@ body {
   grid-gap: 14rem;
 }
 
-.icon {
-  width: 4rem;
-  height: 4rem;
+.feature__icon {
   fill: #c69963;
+  height: 4.5rem;
+  width: 4.5rem;
 }
-
 .story__pictures {
   background-color: #c69963;
   grid-column: full-start/col-end 4;

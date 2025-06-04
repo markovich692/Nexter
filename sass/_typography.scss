@@ -1,0 +1,20 @@
+%heading {
+  font-style: $font-display;
+  font-weight: 400;
+}
+
+.heading-1 {
+  @extends %heading;
+}
+
+.heading-2 {
+  @extends %heading;
+}
+
+.heading-3 {
+  @extends %heading;
+}
+
+.heading-4 {
+  @extends %heading;
+}

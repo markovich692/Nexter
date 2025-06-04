@@ -7,16 +7,12 @@
 }
 
 .feature {
-}
+  &__icon {
+    fill: $color-primary;
+    height: 4.5rem;
+    width: 4.5rem;
+  }
 
-.icon {
-  width: 4rem;
-  height: 4rem;
-  fill: $color-primary;
-}
-
-.heading-4 {
-}
-
-.feature__text {
+  &__text {
+  }
 }
