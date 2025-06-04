@@ -3,4 +3,20 @@
   grid-column: center-start/center-end;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-gap: 14rem;
+}
+
+.feature {
+}
+
+.icon {
+  width: 4rem;
+  height: 4rem;
+  fill: $color-primary;
+}
+
+.heading-4 {
+}
+
+.feature__text {
 }
