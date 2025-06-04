@@ -24,20 +24,13 @@ body {
   grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
 }
 
-.heading-1 {
-  @extends %heading;
-}
-
-.heading-2 {
-  @extends %heading;
-}
-
-.heading-3 {
-  @extends %heading;
+.heading-4, .heading-3, .heading-2, .heading-1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
 }
 
 .heading-4 {
-  @extends %heading;
+  font-size: 1.9rem;
 }
 .heading-4--light {
   color: #f9f7f6;
@@ -68,6 +61,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 6rem;
+  align-items: start;
 }
 
 .feature {
@@ -81,6 +75,8 @@ body {
   height: 4.5rem;
   width: 4.5rem;
   grid-row: 1/span 2;
+  transform: translateY(-1rem);
+  transition: all 0.2s;
 }
 .feature__text {
   font-size: 1.7rem;

@@ -1,27 +1,30 @@
 %heading {
-  font-style: $font-display;
+  font-family: $font-display;
   font-weight: 400;
 }
 
 .heading-1 {
-  @extends %heading;
+  @extend %heading;
 }
 
 .heading-2 {
-  @extends %heading;
+  @extend %heading;
 }
 
 .heading-3 {
-  @extends %heading;
+  @extend %heading;
 }
 
 .heading-4 {
-  @extends %heading;
+  @extend %heading;
+  font-size: 1.9rem;
 
+  //Realtors
   &--light {
     color: $color-grey-light-1;
   }
 
+  //feature
   &--dark {
     color: $color-grey-dark-1;
   }

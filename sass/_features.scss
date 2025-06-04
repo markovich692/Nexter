@@ -4,6 +4,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 6rem;
+  align-items: start;
 }
 
 .feature {
@@ -17,6 +18,8 @@
     height: 4.5rem;
     width: 4.5rem;
     grid-row: 1 / span 2;
+    transform: translateY(-1rem);
+    transition: all 0.2s;
   }
 
   &__text {
