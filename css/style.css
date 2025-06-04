@@ -39,6 +39,12 @@ body {
 .heading-4 {
   @extends %heading;
 }
+.heading-4--light {
+  color: #f9f7f6;
+}
+.heading-4--dark {
+  color: #54483a;
+}
 
 .sidebar {
   background-color: #c69963;
@@ -61,7 +67,7 @@ body {
   grid-column: center-start/center-end;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 14rem;
+  grid-gap: 6rem;
 }
 
 .feature__icon {
