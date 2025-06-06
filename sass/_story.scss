@@ -3,7 +3,7 @@
     background-color: $color-primary;
     grid-column: full-start/col-end 4;
     max-width: 100%;
-    border: 1px solid red;
+    // border: 1px solid red;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(6, 1fr);
