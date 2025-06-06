@@ -8,8 +8,9 @@
     background-color: $color-grey-light-1;
     grid-column: col-start 5 / full-end;
     padding: 6rem 12rem;
-    // display: grid;
-    // align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
   }
 
   &__text {
