@@ -141,6 +141,8 @@ body {
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(6, 1fr);
   align-items: center;
+  background-image: url(../img/back.jpg);
+  background-size: cover;
 }
 .story__img--1 {
   width: 100%;
