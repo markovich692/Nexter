@@ -10,7 +10,8 @@
     padding: 6rem 12rem;
     display: flex;
     flex-direction: column;
-    justify-items: center;
+    justify-content: center;
+    align-items: flex-start;
   }
 
   &__text {

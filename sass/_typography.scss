@@ -55,8 +55,6 @@
   border: none;
   cursor: pointer;
   transition: all 0.2s;
-  align-self: flex-start;
-  // margin-right: auto;
 
   &:hover {
     background-color: $color-primary-dark;
