@@ -1,7 +1,8 @@
 .homes {
   background-color: $color-secondary;
   grid-column: center-start/center-end;
-  display: grid;
+  margin: 15rem 0;
 
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 }
