@@ -32,6 +32,7 @@ body {
 .heading-2 {
   font-size: 4rem;
   font-style: italic;
+  line-height: 1;
 }
 .heading-2--light {
   color: #f9f7f6;
@@ -54,6 +55,19 @@ body {
 }
 .heading-4--dark {
   color: #54483a;
+}
+
+.btn {
+  background-color: #c69963;
+  padding: 2rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #b28451;
 }
 
 .sidebar {
@@ -107,8 +121,6 @@ body {
   background-color: #f9f7f6;
   grid-column: col-start 5/full-end;
   padding: 6rem 12rem;
-  display: grid;
-  align-content: center;
 }
 
 .homes {

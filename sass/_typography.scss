@@ -12,6 +12,7 @@
   font-size: 4rem;
   font-style: italic;
 
+  line-height: 1;
   &--light {
     color: $color-grey-light-1;
   }
@@ -40,5 +41,19 @@
   //feature
   &--dark {
     color: $color-grey-dark-1;
+  }
+}
+
+.btn {
+  background-color: $color-primary;
+  padding: 2rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $color-primary-dark;
   }
 }
