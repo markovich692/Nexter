@@ -8,12 +8,13 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(6, 1fr);
+    align-items: center;
   }
 
   &__img--1 {
     width: 100%;
-    // grid-columns: 2/6;
-    // grid-rows: 2/6;
+    grid-row: 2/6;
+    grid-column: 2/6;
   }
 
   &__img--2 {
