@@ -33,11 +33,14 @@
   &__name {
     grid-column: 1/-1;
     font-family: $font-display;
+    width: 80%;
     font-size: 1.6rem;
     justify-self: center;
     padding: 1.25rem;
     background-color: $color-secondary;
     color: #fff;
+    text-align: center;
+    font-weight: 400;
     transform: translateY(-50%);
     z-index: 10;
   }
