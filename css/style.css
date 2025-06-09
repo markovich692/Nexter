@@ -57,8 +57,7 @@ body {
   color: #54483a;
 }
 
-.btn,
-.cta {
+.btn {
   background-color: #c69963;
   padding: 1.8rem 3rem;
   color: #fff;
@@ -70,8 +69,7 @@ body {
   cursor: pointer;
   transition: all 0.2s;
 }
-.btn:hover,
-.cta:hover {
+.btn:hover {
   background-color: #b28451;
 }
 
