@@ -4,6 +4,7 @@
   "description": "Nexter webpage",
   "main": "index.js",
   "scripts": {
+    "dev": "live-server --browser=firefox",
     "watch:sass": "sass sass/main.scss css/style.css --watch",
     "devserver": "live-server --browser=firefox",
     "start": "npm-run-all --parallel devserver watch:sass",
