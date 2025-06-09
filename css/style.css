@@ -202,7 +202,14 @@ body {
 }
 .home__name {
   grid-column: 1/-1;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.6rem;
   justify-self: center;
+  padding: 1.25rem;
+  background-color: #101d2c;
+  color: #fff;
+  transform: translateY(-50%);
+  z-index: 10;
 }
 .home__location, .home__rooms, .home__area, .home__price {
   display: flex;
