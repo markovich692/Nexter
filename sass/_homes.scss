@@ -9,23 +9,31 @@
 
 .home {
   background-color: $color-grey-light-1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 
   &__img {
     width: 100%;
+    grid-column: 1/-1;
   }
 
   &__like {
     width: 2.5rem;
     height: 2.5rem;
+    fill: $color-primary;
   }
 
   &__name {
+    grid-column: 1/-1;
+    justify-self: center;
   }
 
   &__location,
   &__rooms,
   &__area,
   &__price {
+    display: flex;
+
     svg {
       fill: $color-primary;
       width: 2rem;
@@ -34,5 +42,9 @@
 
     p {
     }
+  }
+
+  &__btn {
+    grid-column: 1/-1;
   }
 }

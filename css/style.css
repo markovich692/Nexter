@@ -181,19 +181,34 @@ body {
 
 .home {
   background-color: #f9f7f6;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 .home__img {
   width: 100%;
+  grid-column: 1/-1;
 }
 .home__like {
   width: 2.5rem;
   height: 2.5rem;
+  fill: #c69963;
+}
+.home__name {
+  grid-column: 1/-1;
+  justify-self: center;
+}
+.home__location, .home__rooms, .home__area, .home__price {
+  display: flex;
 }
 .home__location svg, .home__rooms svg, .home__area svg, .home__price svg {
   fill: #c69963;
   width: 2rem;
   height: 2rem;
 }
+.home__btn {
+  grid-column: 1/-1;
+}
+
 .gallery {
   background-color: #54483a;
   grid-column: full-start/full-end;
