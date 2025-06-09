@@ -186,7 +186,13 @@ body {
   width: 100%;
 }
 .home__like {
-  width: 25px;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.home__location svg, .home__rooms svg, .home__area svg, .home__price svg {
+  fill: #c69963;
+  width: 2rem;
+  height: 2rem;
 }
 .gallery {
   background-color: #54483a;

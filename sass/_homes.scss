@@ -15,7 +15,8 @@
   }
 
   &__like {
-    width: 25px;
+    width: 2.5rem;
+    height: 2.5rem;
   }
 
   &__name {
@@ -26,6 +27,9 @@
   &__area,
   &__price {
     svg {
+      fill: $color-primary;
+      width: 2rem;
+      height: 2rem;
     }
 
     p {
