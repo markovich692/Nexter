@@ -188,6 +188,7 @@ body {
   width: 100%;
   grid-column: 1/-1;
   grid-row: 1/2;
+  z-index: 1;
 }
 .home__like {
   grid-row: 1/2;
@@ -195,6 +196,9 @@ body {
   width: 2.5rem;
   height: 2.5rem;
   fill: #c69963;
+  z-index: 20;
+  justify-self: end;
+  margin: 1rem;
 }
 .home__name {
   grid-column: 1/-1;
@@ -202,6 +206,7 @@ body {
 }
 .home__location, .home__rooms, .home__area, .home__price {
   display: flex;
+  align-items: center;
 }
 .home__location svg, .home__rooms svg, .home__area svg, .home__price svg {
   fill: #c69963;

@@ -16,6 +16,7 @@
     width: 100%;
     grid-column: 1/-1;
     grid-row: 1/2;
+    z-index: 1;
   }
 
   &__like {
@@ -24,6 +25,9 @@
     width: 2.5rem;
     height: 2.5rem;
     fill: $color-primary;
+    z-index: 20;
+    justify-self: end;
+    margin: 1rem;
   }
 
   &__name {
@@ -36,6 +40,7 @@
   &__area,
   &__price {
     display: flex;
+    align-items: center;
 
     svg {
       fill: $color-primary;
