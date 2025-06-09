@@ -187,8 +187,11 @@ body {
 .home__img {
   width: 100%;
   grid-column: 1/-1;
+  grid-row: 1/2;
 }
 .home__like {
+  grid-row: 1/2;
+  grid-column: 2/3;
   width: 2.5rem;
   height: 2.5rem;
   fill: #c69963;
