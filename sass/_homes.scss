@@ -60,11 +60,13 @@
   &__price {
     display: flex;
     align-items: center;
+    margin-left: 2rem;
 
     svg {
       fill: $color-primary;
       width: 2rem;
       height: 2rem;
+      margin-right: 1rem;
     }
 
     p {
