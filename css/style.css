@@ -93,6 +93,7 @@ body {
   background-color: #c69963;
   grid-column: sidebar-start/sidebar-end;
   grid-row: 1/-1;
+  position: relative;
 }
 
 .btn-nav {
@@ -100,6 +101,10 @@ body {
   border-radius: 0;
   height: 2px;
   width: 4.5rem;
+  position: absolute;
+  top: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .header {
