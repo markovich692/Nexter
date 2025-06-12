@@ -314,9 +314,6 @@ body {
   background-color: #101d2c;
   grid-column: full-start/full-end;
   padding: 8rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .nav {
@@ -343,7 +340,11 @@ body {
 }
 
 .copyright {
-  align-self: center;
+  font-size: 1.4rem;
+  color: #aaa;
+  width: 60%;
+  text-align: center;
+  margin: 6rem auto 0 auto;
 }
 
 /*# sourceMappingURL=style.css.map */
