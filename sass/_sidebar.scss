@@ -3,3 +3,10 @@
   grid-column: sidebar-start/ sidebar-end;
   grid-row: 1/-1;
 }
+
+.btn-nav {
+  border: none;
+  border-radius: 0;
+  height: 2px;
+  width: 4.5rem;
+}

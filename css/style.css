@@ -95,6 +95,13 @@ body {
   grid-row: 1/-1;
 }
 
+.btn-nav {
+  border: none;
+  border-radius: 0;
+  height: 2px;
+  width: 4.5rem;
+}
+
 .header {
   background-color: #54483a;
   grid-column: full-start/col-end 6;
