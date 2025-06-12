@@ -314,6 +314,9 @@ body {
   background-color: #101d2c;
   grid-column: full-start/full-end;
   padding: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .nav {
@@ -321,6 +324,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   grid-gap: 2rem;
+  align-items: center;
 }
 .nav__link:link, .nav__link:visited {
   font-size: 1.4rem;
@@ -331,7 +335,15 @@ body {
   text-align: center;
   display: block;
   padding: 1.5rem;
+  transition: all 0.2s;
+}
+.nav__link:hover {
   background-color: rgba(255, 255, 255, 0.05);
+  transform: translateY(-3px);
+}
+
+.copyright {
+  align-self: center;
 }
 
 /*# sourceMappingURL=style.css.map */
