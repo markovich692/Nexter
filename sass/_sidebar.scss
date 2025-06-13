@@ -2,7 +2,8 @@
   background-color: $color-primary;
   grid-column: sidebar-start/ sidebar-end;
   grid-row: 1/-1;
-  position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .btn-nav {
@@ -10,10 +11,22 @@
   border-radius: 0;
   height: 2px;
   width: 4.5rem;
-  // margin: 0 auto;
-  // display: block;
-  position: absolute;
-  top: 3rem;
-  left: 50%;
-  transform: translateX(-50%);
+  margin-top: 4rem;
+
+  &::before,
+  &::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 4.5rem;
+    background-color: white;
+  }
+
+  &::before {
+    transform: translateY(-1.5rem);
+  }
+
+  &::after {
+    transform: translateY(1.5rem);
+  }
 }

@@ -93,7 +93,8 @@ body {
   background-color: #c69963;
   grid-column: sidebar-start/sidebar-end;
   grid-row: 1/-1;
-  position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .btn-nav {
@@ -101,10 +102,20 @@ body {
   border-radius: 0;
   height: 2px;
   width: 4.5rem;
-  position: absolute;
-  top: 3rem;
-  left: 50%;
-  transform: translateX(-50%);
+  margin-top: 4rem;
+}
+.btn-nav::before, .btn-nav::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 4.5rem;
+  background-color: white;
+}
+.btn-nav::before {
+  transform: translateY(-1.5rem);
+}
+.btn-nav::after {
+  transform: translateY(1.5rem);
 }
 
 .header {
