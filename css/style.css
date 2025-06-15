@@ -109,7 +109,7 @@ body {
   display: block;
   height: 2px;
   width: 4.5rem;
-  background-color: white;
+  background-color: #fff;
 }
 .btn-nav::before {
   transform: translateY(-1.5rem);
