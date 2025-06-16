@@ -130,12 +130,18 @@ body {
   background-image: linear-gradient(rgba(16, 29, 44, 0.93), rgba(16, 29, 44, 0.93)), url(../img/hero.jpeg);
   background-size: cover;
   background-position: center;
+  display: grid;
+  grid-template-rows: 1fr min-content 6rem 1fr;
 }
 .header__logo {
   height: 3rem;
 }
 .header__logos img {
   height: 2.5rem;
+}
+.header__btn {
+  justify-self: start;
+  align-self: start;
 }
 .realtors {
   background-color: #101d2c;
