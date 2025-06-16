@@ -148,7 +148,8 @@ body {
   justify-items: center;
 }
 .header__logos img {
-  height: 2.5rem;
+  max-height: 2.5rem;
+  max-width: 100%;
   filter: brightness(70%);
 }
 .header__btn {
@@ -173,8 +174,24 @@ body {
 .realtors {
   background-color: #101d2c;
   grid-column: col-start 7/full-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
+.realtors__list {
+  display: grid;
+  grid-template-columns: min-content max-content;
+  grid-row-gap: 5vh;
+  grid-column-gap: 2rem;
+  justify-items: center;
+  align-items: center;
+}
+.realtors__img {
+  height: 7rem;
+  border-radius: 50%;
+  display: block;
+}
 .features {
   margin: 15rem 0;
   grid-column: center-start/center-end;
