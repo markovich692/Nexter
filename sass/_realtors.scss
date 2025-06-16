@@ -1,10 +1,11 @@
 .realtors {
   background-color: $color-secondary;
   grid-column: col-start 7 / full-end;
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: center;
-  // align-items: center;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   &__list {
     display: grid;
@@ -20,12 +21,15 @@
     display: block;
   }
 
-  // &__details {
-  // }
+  &__details {
+  }
 
-  // &__name {
-  // }
+  &__name {
+  }
 
-  // &__sold {
-  // }
+  &__sold {
+    text-transform: uppercase;
+    color: $color-grey-light-2;
+    margin-top: -3px;
+  }
 }
