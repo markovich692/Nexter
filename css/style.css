@@ -158,8 +158,15 @@ body {
 .header__seeon-text {
   font-size: 1.6rem;
   color: #aaa;
-  justify-self: center;
   display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  align-items: center;
+}
+.header__seeon-text::before, .header__seeon-text::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: currentColor;
 }
 
 .realtors {

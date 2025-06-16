@@ -40,15 +40,16 @@
   &__seeon-text {
     font-size: 1.6rem;
     color: $color-grey-light-2;
-    justify-self: center;
-
     display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    align-items: center;
 
-    // &::before {
-
-    // }
-
-    // &::after {
-    // }
+    &::before,
+    &::after {
+      content: "";
+      display: block;
+      height: 1px;
+      background-color: currentColor;
+    }
   }
 }
