@@ -1,17 +1,16 @@
 .realtors {
   background-color: $color-secondary;
   grid-column: col-start 7 / full-end;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
 
   &__list {
     display: grid;
     grid-template-columns: min-content max-content;
     grid-row-gap: 5vh;
     grid-column-gap: 2rem;
-    justify-items: center;
     align-items: center;
   }
 
@@ -21,12 +20,12 @@
     display: block;
   }
 
-  &__details {
-  }
+  // &__details {
+  // }
 
-  &__name {
-  }
+  // &__name {
+  // }
 
-  &__sold {
-  }
+  // &__sold {
+  // }
 }
