@@ -144,6 +144,12 @@ body {
   justify-self: start;
   align-self: start;
 }
+.header__seeon-text {
+  font-size: 1.6rem;
+  color: #aaa;
+  justify-self: center;
+}
+
 .realtors {
   background-color: #101d2c;
   grid-column: col-start 7/full-end;
