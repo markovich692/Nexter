@@ -175,10 +175,11 @@ body {
   background-color: #101d2c;
   grid-column: col-start 7/full-end;
   padding: 3rem;
-  display: flex;
-  flex-direction: column;
+  display: grid;
   justify-content: center;
-  align-items: center;
+  align-content: center;
+  grid-row-gap: 2rem;
+  justify-items: center;
 }
 .realtors__list {
   display: grid;
