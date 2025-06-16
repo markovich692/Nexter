@@ -143,11 +143,13 @@ body {
 }
 .header__logos {
   display: grid;
-  grid-auto-flow: column;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 3rem;
   justify-items: center;
 }
 .header__logos img {
   height: 2.5rem;
+  filter: brightness(70%);
 }
 .header__btn {
   justify-self: start;
@@ -157,6 +159,7 @@ body {
   font-size: 1.6rem;
   color: #aaa;
   justify-self: center;
+  display: grid;
 }
 
 .realtors {
