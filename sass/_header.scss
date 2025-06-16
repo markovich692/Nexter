@@ -3,14 +3,9 @@
   grid-column: full-start/ col-end 6;
 
   &__logos {
-    // & img {
-    //   width: 5rem;
-    //   color: $color-grey-light-2;
-
-    //   &:not(:last-child) {
-    //     margin-right: 5rem;
-    //   }
-    // }
+    img {
+      height: 2.5rem;
+    }
   }
 
   &__seeon-text {
