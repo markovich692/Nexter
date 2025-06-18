@@ -138,6 +138,8 @@ body {
   .sidebar {
     grid-column: full-start/full-end;
     grid-row: 1/2;
+    justify-content: flex-end;
+    align-items: center;
   }
 }
 
@@ -159,7 +161,7 @@ body {
   transform: translateY(-1.5rem);
 }
 .btn-nav::after {
-  transform: translateY(1.5rem);
+  transform: translateY(1.3rem);
 }
 
 .header {
