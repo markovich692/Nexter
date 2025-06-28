@@ -404,7 +404,7 @@ body {
 }
 
 .home__name {
-  color: #fff;
+  color: orange;
   text-align: center;
   z-index: 10;
   background-color: #101d2c;
